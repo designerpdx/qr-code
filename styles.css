@@ -69,6 +69,7 @@ main {
 }
 .inner-box img {
   width: 288px;
+  pointer-events: none;
 }
 
 .attribution {
