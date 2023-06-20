@@ -1,0 +1,60 @@
+// Load Partials
+@import 'scss/reset';
+@import 'scss/font';
+@import 'scss/colors';
+
+html {
+  font-family: $ff;
+  font-size: 16px;
+}
+
+h1, p {
+  padding: 1.5rem;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+h1 {
+  color: $navy;
+  font-weight: $fw-bold;
+  font-size: 1.375rem;;
+}
+
+p {
+  color: $grey;
+  padding-bottom: 2.5rem;
+  font-size: 0.9375rem;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: $grey-lt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.outer-box {
+  max-width: 320px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $white;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px hsla(218, 44%, 22%, 0.25);
+}
+
+.inner-box {
+  margin-top: 1rem;
+  overflow: hidden;
+  border-radius: 10px;
+  img {
+    width: 288px;
+  }
+}
+
+// Attribution
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
